@@ -189,6 +189,39 @@ dev-tools/
 - 🎯 깔끔하고 직관적인 UI/UX
 - 🚀 15개의 유용한 개발자 도구
 
+## 🔍 SEO 최적화
+
+이 프로젝트는 검색 엔진 최적화를 위한 모든 설정이 완료되어 있습니다:
+
+### 구현된 SEO 기능
+
+- ✅ **완벽한 메타데이터**: 모든 페이지에 title, description, keywords 설정
+- ✅ **Open Graph & Twitter Card**: 소셜 미디어 공유 최적화
+- ✅ **구조화된 데이터 (JSON-LD)**: Schema.org WebApplication 타입
+- ✅ **Sitemap.xml**: 모든 페이지 자동 생성
+- ✅ **Robots.txt**: 검색 엔진 크롤링 최적화
+- ✅ **PWA 지원**: Progressive Web App manifest
+- ✅ **성능 최적화**: GZIP 압축, 이미지 최적화, 보안 헤더
+- ✅ **모바일 최적화**: 완전한 반응형 디자인
+
+### 배포 후 설정
+
+배포 후 다음 작업을 수행하세요:
+
+1. **URL 변경**: `app/layout.tsx`, `app/robots.ts`, `app/sitemap.ts`의 URL을 실제 도메인으로 변경
+2. **Google Search Console**: 사이트 등록 및 sitemap 제출
+3. **네이버 서치어드바이저**: 사이트 등록 및 sitemap 제출
+4. **이미지 생성**: `og-image.png`, `icon-192x192.png`, `icon-512x512.png` 추가
+
+자세한 내용은 [SEO_GUIDE.md](./SEO_GUIDE.md)를 참고하세요.
+
+### SEO 체크
+
+배포 후 다음 도구로 SEO를 확인하세요:
+- [Google PageSpeed Insights](https://pagespeed.web.dev/)
+- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
+- [Google Rich Results Test](https://search.google.com/test/rich-results)
+
 ## 📄 라이선스
 
 MIT License
